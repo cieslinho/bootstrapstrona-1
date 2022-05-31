@@ -1,0 +1,269 @@
+*,
+::after,
+::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+}
+
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+.top-hero {
+  position: relative;
+  height: 200px;
+  background-size: cover;
+  z-index: 0;
+}
+
+.top-hero .top-hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  font-size: 3.6rem;
+  text-transform: uppercase;
+}
+
+.service-hero-box {
+  position: relative;
+  height: 300px;
+  background-size: cover;
+  z-index: 0;
+}
+
+.service-hero-box p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+nav {
+  font-size: 2rem;
+}
+
+nav .navbar-toggler {
+  font-size: 3rem;
+}
+
+nav .navbar-brand {
+  font-size: 2.4rem;
+}
+
+header {
+  font-size: 2rem;
+}
+
+.carousel-item {
+  position: relative;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.carousel-img-one {
+  background-image: url("../img/main-carousel-1.jpg");
+}
+
+.carousel-img-two {
+  background-image: url("../img/main-carousel-2.jpg");
+}
+
+.carousel-img-three {
+  background-image: url("../img/main-carousel-3.jpg");
+}
+
+.home-cards {
+  padding: 5em 0;
+}
+
+.home-cards .cards-group .fa-solid {
+  font-size: 4rem;
+}
+
+.home-cards .cards-group h3 {
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+
+.home-passion {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/vw-sunset.jpg");
+  z-index: 0;
+}
+
+footer {
+  font-size: 1.6rem;
+}
+
+.aboutus-hero {
+  background-image: url("../img/about/highway.jpg");
+  background-position: bottom;
+}
+
+.aboutus-info {
+  background-color: #f8f8f8;
+}
+
+.aboutus-info .container {
+  padding: 2em 0.5em;
+}
+
+.aboutus-info .aboutus-text {
+  padding: 1.8em;
+}
+
+.aboutus-info .aboutus-text h3 {
+  margin-bottom: 0.5em;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-text-decoration: underline #007bff;
+          text-decoration: underline #007bff;
+}
+
+.aboutus-info .aboutus-text-right {
+  text-align: right;
+}
+
+.aboutus-info .aboutus-img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.aboutus-cards i {
+  font-size: 3rem;
+}
+
+.aboutus-cards h3 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.services-hero {
+  background-image: url("../img/services/services-car.jpg");
+  background-position: 0 75%;
+}
+
+.box-one {
+  background-image: url("../img/services/engine.jpg");
+}
+
+.box-two {
+  background-image: url("../img/services/visual.jpg");
+}
+
+.box-three {
+  background-image: url("../img/services/car-audio.jpg");
+}
+
+.box-four {
+  background-image: url("../img/services/allinone.jpg");
+}
+
+.projects-hero {
+  background-image: url("../img/projects/project-hero.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.projects .card img {
+  height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.projects .card .btn {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.contact-hero {
+  background-image: url("../img/contact/hero-contact.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  .aboutus-info .container {
+    padding: 0;
+  }
+  .aboutus-info .aboutus-text {
+    padding: 5em 0;
+    -webkit-transform: skew(-15deg);
+            transform: skew(-15deg);
+  }
+  .aboutus-info .aboutus-text-left {
+    padding-right: 2em;
+    text-align: right;
+  }
+  .aboutus-info .aboutus-text-right {
+    padding-left: 2em;
+    text-align: left;
+  }
+  .aboutus-info .aboutus-img {
+    height: auto;
+    -webkit-transform: skew(-15deg);
+            transform: skew(-15deg);
+  }
+  .aboutus-shadow {
+    -webkit-box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+            box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+  }
+}
+
+@media (min-width: 1400px) {
+  .carousel-item {
+    height: 600px;
+  }
+  .carousel-img-one {
+    background-image: url("../img/main-carousel-1-hq.jpg");
+  }
+  .carousel-img-two {
+    background-image: url("../img/main-carousel-2-hq.jpg");
+  }
+  .carousel-img-three {
+    background-image: url("../img/main-carousel-3-hq.jpg");
+  }
+  .home-passion {
+    background-image: url("../img/vw-sunset-hq.jpg");
+  }
+}
+/*# sourceMappingURL=main.css.map */
